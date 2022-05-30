@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+    font-size: 35px
+}
+
+body{
+
+      background-image: url(código-do-html-e-do-css-76835658.jpg);
+      background-color: darkgrey;
+      background-repeat: no-repeat;
+      background-size: 100%,100%;
+      background-attachment: fixed;
+}
+
+.form{
+       background-color: gainsboro;
+       width: 50%;
+       height: 70%;
+       margin: 0 auto;
+       margin-top: 30px;
+       border: 5%solid blue;
+       border-radius: 10px;
+}
+
+.campo textarea {
+
+     color: red;
+}
+
+h1{
+     font-size: 40px;
+     color: white; 
+     text-align: center;
+     background-color: rgb(5, 29, 136);
+     border-radius: 5px;   
+}
+
+h2{
+     font-size: 30px;
+     text-align: center;
+     background-color: rgb(17, 172, 233);
+     border-radius: 5%;
+}
+
+
+input[type=checkbox] {
+    border: 0px;
+    width: 30px;
+    height: 1em;
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 30px;
+    height: 1em;
+}
+
+input{
+        border-radius: 5%;
+        height: 40px;      
+}
+
+input[type="submit"]{
+
+     text-align: center;
+     width: 200px;
+     height: 70px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+input[type="submit"]:hover{
+
+    background: rgb(15, 110, 218);
+    color: white;
+
+}
+
+footer {
+      text-align: center;
+      background-color: purple;
+      color: white;
+      font-style: italic;
+      height: 20%;
+}
+
+

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href= "estilo.css">
+</head>
+<body>
+
+       <div class="form">
+
+       <div><h1 id="titulo">CADASTRO DE DESENVOLVEDOR</h1></div>
+       <br>
+       <div><h2 id="Subtitulo">Preencha o Formulário Completo</h2></div>
+       <hr>
+       
+    <form>
+       <br>
+       <fieldset class="grupo">
+             <div class="campo">
+                   <label><strong>NOME</strong></label>
+                   <input type="text" name= "nome" id="nome" required> 
+             </div>
+             <div class="campo">
+                   <label><strong>SOBRENOME</strong></label>
+                   <input type="text" name= "sobrenome" id="sobrenome" required> 
+             </div>
+       </fieldset>
+                  <br>            
+
+        <fieldset class="grupo">
+              <div class="campo">
+                   <label><strong>RG</strong></label>
+                   <input type="text" size="20" name= "RG" id="rg" required> 
+             </div>
+              <div class="campo">
+                   <label><strong>CPF</strong></label>
+                   <input type="text"  size ="20" name= "CPF" id="cpf" required> 
+              </div>
+        </fieldset>
+                  <br>
+       <fieldset class="grupo"> 
+              <div class="campo">
+                   <label><strong>EMAIL</EMAIL></strong></label>
+                   <input type="email" size = "20" name= "email" id="email" required> 
+              </div>      
+              <div class="campo">
+                   <label><strong>TELEFONE</strong></label>
+                   <input type="text" size = "20" name= "telefone" id="telefone"> 
+              </div>
+        </fieldset>
+                   <br>
+        <fieldset class="grupo">
+               <div class= "campo">
+                   <label><strong>ENDEREÇO</strong></label>
+                   <input type="text" size= "20" name= "endereço" id="endereço" required> 
+              </div>      
+              <div class= "campo">
+                   <label><strong>BAIRRO</strong></label>
+                   <input type="text" size="20" name= "bairro" id="bairro">
+              </div>
+        </fieldset>   
+                     <br>
+         <fieldset>
+                <div>
+                     <label for="data"><strong>DATA DE NASCIMENTO</strong></label>
+                    <input type="date" name="data" id="data"> 
+                </div>
+         </fieldset>
+                     <br>
+        <fieldset  class="grupo">               
+               <div>
+                    <label><strong>SEXO:</strong></label>
+                        
+                          <label>
+                          <input type="radio" name="Masculino" value="Masculino" checked> MASCULINO
+                          </label>
+                
+                          <label>
+                          <input type="radio" name="Feminino" value="Feminino">FEMININO
+                          </label>
+                          
+                </div>
+        </fieldset>
+                      <br>   
+                   
+        <fieldset class="grupo">
+                 <div>
+                
+                <label for"uf"><strong>QUAL O SEU ESTADO ?</strong></label>
+                     <select name="Estado" id="uf">
+                     <option value="0">ESCOLHA SUA REGIÃO</option>
+                  <br>
+                    <optgroup label= "NORTE"></optgroup>   
+                         <option value="1">ACRE</option>
+                         <option value="2">AMAZONAS</option>
+                         <option value="3">AMAPA</option>
+                         <option value="4">PARA</option>
+                         <option value="5">RONDONIA</option>
+                         <option value="6">RORAIMA</option>
+                         <option value="7">TOCANTINS</option>
+                  <br>
+                    <optgroup label= "NORDESTE"></optgroup>
+                         <option value="8">ALAGOAS</option>
+                         <option value="9">BAHIA</option>
+                         <option value="10">CEARÁ</option>
+                         <option value="11">MARANHÃO</option>
+                         <option value="12">PIAUI</option>
+                         <option value="13">PERNANBUCO</option>
+                         <option value="14">PARAIBA</option>
+                         <option value="15">RIO GRANDE DO NORTE</option>
+                         <option value="16">SERGIPE</option>
+                  <br>
+                    <optgroup label= "CENTRO-OESTE"></optgroup>
+                        <option value="17">GOIAS</option>
+                        <option value="18">MATO GROSSO</option>
+                        <option value="19">MATO GROSSO DO SUL</option>
+                        <option value="20">BRASILIA</option>
+                    <br>
+                    <optgroup label= "SUL"></optgroup>
+                        <option value="21">ESPIRITO SANTO</option>
+                        <option value="22">MINAS GERAIS</option>
+                        <option value="23">RIO DE JANEIRO</option>
+                        <option value="24">SÃO PAULO</option>
+                    <br>
+                        <optgroup label= "SUDESTE"></optgroup>
+                        <option value="25">PARANÁ</option>
+                        <option value="26">RIO GRANDE DO SUL</option>
+                        <option value="27">SANTA CATARINA</option>
+              </select>
+        </fieldset>   
+                    <br>
+        <fieldset class="grupo">
+                  <label><strong>DE QUE LADO VC DESENVOLVE ?</strong></label>
+                           
+                          <label>
+                          <input type="radio" name="desnweb" value="front-end" checked> FRONT-END
+                          </label>
+
+                          <label>
+                          <input type="radio" name="desnweb" value="back-end"> BACK-END
+                          </label>
+                  
+                          <label>
+                          <input type="radio" name="desnweb" value="fullstack"> FULLSTACK
+                          </label>
+        </fieldset>
+                   <br>
+
+        <fieldset class="grupo">
+                 <div>
+                     <label><strong>SENIORIDADE</strong></label>
+                        <select id ="senioridade">  
+                          <option selected disabled value="">SELECIONE</option>
+                          <option>DEVENPLOPER JUNIOR</option>
+                          <option>DEVENLOPER PLENO</option>
+                          <option>DEVENLOPER SENIOR</option>
+                        </select>
+                 </div>
+        </fieldset>        
+                       <br>
+        <fieldset class = "grupo">
+                  <div class = "campo">
+                       <label><strong>QUAL A TECNOLOGIA VC CONHECE??</strong></label>
+                             
+                          <ul>
+                              <input type="checkbox" name="tecnologia 1" id="tecnologia 1" value="HTML">
+                              <label for="tecnologia 1 ">HTML</label>
+                              <input type="checkbox" name="tecnologia 2" id="tecnologia 2" value="CSS">
+                              <label for="tecnologia 1 ">CSS</label>
+                              <input type="checkbox" name="tecnologia 3" id="tecnologia 3" value="JAVA SCRIPT">
+                              <label for="tecnologia 1 ">JAVA SCRIPT</label>
+                              <input type="checkbox" name="tecnologia 4" id="tecnologia 4" value="PHP">
+                              <label for="tecnologia 1 ">PHP</label>
+                              <input type="checkbox" name="tecnologia 5" id="tecnologia 5" value="PYTOHN">
+                              <label for="tecnologia 1 ">PYTHON</label>
+                              <input type="checkbox" name="tecnologia 6" id="tecnologia 6" value="JAVA">
+                              <label for="tecnologia 1 ">JAVA</label>
+                  
+                          </ul> 
+                  </div>
+        </fieldset>           
+                      <br>
+        
+                  <div class="campo">
+
+                       <labe><strong>FALE UM PUCO MAIS SOBRE SUAS EXPERIÊNCIAS:</strong></labe>
+                       <br><br>
+                       <textarea rows="10"  style='width : 23em' id = "EXPERIÊNCIAS" name="EXPERIÊNCIAS"></textarea>
+                  </div>
+
+                  <br><br><br>
+
+                  <div>
+                       <input type="submit">
+                       Concluir Formulário
+                       </input>
+                  </div>
+                         <br><br>
+
+    
+                  <footer><strong>&copy;Fabricio Paim de Oliveira Picorelli</strong></footer>
+    
+                </form>
+
+    </div>
+</body>
+  
+
+</html>
